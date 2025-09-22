@@ -6,4 +6,12 @@ text = "Delhi is the capital of India"
 
 vector = embedding.embed_query(text)
 
+# documents = [
+#     "Delhi is the capital of India",
+#     "Kolkata is the capital of West Bengal",
+#     "Paris is the capital of France"
+# ]
+
+# vector = embedding.embed_documents(documents)
+
 print(str(vector))
